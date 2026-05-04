@@ -31,7 +31,39 @@
             
             background-color: rgba(245, 1, 233, 0.5);
         }
+        /* Audio base */
+        audio {
+        width: 80%;
+        border-radius: 20px;
+        background: white;
+        }
 
+        /* Chrome / Safari (Webkit) */
+        audio::-webkit-media-controls-panel {
+        background-color: white;
+        border-radius: 20px;
+        }
+
+        /* Botón play rosa */
+        audio::-webkit-media-controls-play-button {
+        background-color: #ff6fb5;
+        border-radius: 50%;
+        }
+
+        /* Hover botón */
+        audio::-webkit-media-controls-play-button:hover {
+        background-color: #ff4da6;
+        }
+
+        /* Barra de progreso */
+        audio::-webkit-media-controls-timeline {
+        accent-color: #ff6fb5;
+        }
+
+        /* Volumen */
+        audio::-webkit-media-controls-volume-slider {
+        accent-color: #ff6fb5;
+        }
         div{
         border-radius: 5%;
         }
